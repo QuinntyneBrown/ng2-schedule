@@ -10,4 +10,91 @@ export class HomePageComponent implements OnInit {
     ngOnInit() {
 
     }
+
+    public days: Array<any> = [
+        {
+            dayOfWeek: "Mon",
+            date: "Sept. 19"
+        },
+        {
+            dayOfWeek: "Tues",
+            date: "Sept. 20"
+        },
+        {
+            dayOfWeek: "Wed",
+            date: "Sept. 21"
+        },
+        {
+            dayOfWeek: "Thurs",
+            date: "Sept. 22"
+        },
+        {
+            dayOfWeek: "Fri",
+            date: "Sept. 23"
+        },
+        {
+            dayOfWeek: "Sat",
+            date: "Sept. 23"
+        },
+        {
+            dayOfWeek: "Sun",
+            date: "Sept. 25"
+        },
+        {
+            dayOfWeek: "Mon",
+            date: "Sept. 26"
+        },
+        {
+            dayOfWeek: "Tues",
+            date: "Sept. 27"
+        },
+        {
+            dayOfWeek: "Wed",
+            date: "Sept. 28"
+        },
+        {
+            dayOfWeek: "Thurs",
+            date: "Sept. 29"
+        },
+        {
+            dayOfWeek: "Fri",
+            date: "Sept. 30"
+        },
+        {
+            dayOfWeek: "Sat",
+            date: "Oct. 1"
+        },
+        {
+            dayOfWeek: "Sun",
+            date: "Oct. 2"
+        },
+        {
+            dayOfWeek: "Mon",
+            date: "Oct. 3"
+        },
+        {
+            dayOfWeek: "Tues",
+            date: "Oct. 4"
+        },
+        {
+            dayOfWeek: "Wed",
+            date: "Oct. 5"
+        },
+        {
+            dayOfWeek: "Thurs",
+            date: "Oct. 6"
+        },
+        {
+            dayOfWeek: "Fri",
+            date: "Oct. 7"
+        },
+        {
+            dayOfWeek: "Sat",
+            date: "Oct. 8"
+        },
+        {
+            dayOfWeek: "Sun",
+            date: "Oct. 9"
+        }
+    ];
 }

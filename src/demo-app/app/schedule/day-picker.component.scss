@@ -1,0 +1,16 @@
+.day-picker > div {
+    position:relative;
+    display:inline-block;
+    float:left;
+    width:75px;
+
+    span {
+        display:block;
+    }
+}
+
+.day-picker {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}

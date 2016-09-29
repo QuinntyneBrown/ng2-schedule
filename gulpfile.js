@@ -11,6 +11,10 @@ gulp.task('clean', function () {
     var tsGeneratedFiles = [
         'src/lib/schedule.component.d.ts',
         'src/lib/schedule.component.js',
+        'src/lib/day-picker.component.d.ts',
+        'src/lib/day-picker.component.js',
+        'src/lib/scheduled-items.component.d.ts',
+        'src/lib/scheduled-items.component.js',
         'src/lib/index.d.ts',
         'src/lib/index.js'
     ];
@@ -22,6 +26,9 @@ gulp.task('clean', function () {
 gulp.task('compile', ['clean'], function () {
     var sourceTsFiles = [
         './src/lib/src/schedule.component.ts',
+        './src/lib/src/day-picker.component.ts',
+        './src/lib/src/scheduled-items.component.ts',
+        './src/lib/src/schedule.module.ts',
         './src/lib/src/index.ts',
         config.libraryTypeScriptDefinitions
     ];
@@ -41,7 +48,14 @@ gulp.task('watch', function () {
             './src/lib/src/schedule.component.ts',
             './src/lib/src/schedule.component.html',
             './src/lib/src/schedule.component.css',
+            './src/lib/src/scheduled-items.component.ts',
+            './src/lib/src/scheduled-items.component.html',
+            './src/lib/src/scheduled-items.component.css',
+            './src/lib/src/day-picker.component.ts',
+            './src/lib/src/day-picker.component.html',
+            './src/lib/src/day-picker.component.css',
             './src/lib/src/index.ts',
+            './src/lib/src/schedule.module.ts'
         ],
         ['clean','compile']);
 });
