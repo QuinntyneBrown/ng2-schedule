@@ -1,5 +1,9 @@
+.day-picker {
+    font-family:Arial;
+}
+
 .day-picker > div {
-    height:150px;
+    height:75px;
     width:2250px;
     transform: translateX(0);    
 }
@@ -10,10 +14,18 @@
     float:left;
     width:75px;
     cursor:pointer;
-    height:150px;
+    height:75px;
+    background-color:#ccc;
     span {
+        text-align:center;
         display:block;
     }    
+    margin:0 5px;
+}
+
+.day-picker > div > div > span:first-child {
+    margin-top:10px;
+    font-weight:800;
 }
 
 .day-picker {
