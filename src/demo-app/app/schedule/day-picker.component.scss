@@ -5,17 +5,17 @@ $day-font-color-active:#fff;
 $day-background-color:#f2f2f2;
 $day-background-color-active:#797979;
 
-.day-picker {
+:host {
     font-family:Arial;
     color:$day-font-color;
 }
 
-.day-picker > div {
+:host > div > div {
     height:$day-picker-height;
     width:2250px;    
 }
 
-.day-picker > div > div {
+:host > div > div > div {
     position:relative;
     display:inline-block;
     float:left;
@@ -31,17 +31,17 @@ $day-background-color-active:#797979;
     margin-right:5px;
 }
 
-.day-picker > div > div.active {
+:host > div > div > div.active {
     background-color:$day-background-color-active;
     color:$day-font-color-active;
 }
 
-.day-picker > div > div > span:first-child {
+:host > div > div > div > span:first-child {
     margin-top:10px;
     font-weight:800;
 }
 
-.day-picker {
+:host > div {
     width: 100%;
     height: $day-picker-height;
     overflow: hidden;

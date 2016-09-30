@@ -5,4 +5,10 @@ import { Component, Input } from "@angular/core";
     styleUrls: ["./schedule.component.css"],
     selector: "schedule"
 })
-export class ScheduleComponent { }
+export class ScheduleComponent {
+    constructor() { }
+
+    @Input() public days: Array<{ dayOfTheWeek: string, date: string }> = [];
+
+    @Input() public scheduledItems: Array<any> = [];
+}

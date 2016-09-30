@@ -97,4 +97,82 @@ export class HomePageComponent implements OnInit {
             date: "Oct. 9"
         }
     ];
+
+    public scheduledItems: Array<any> = [
+        {
+            title: "Your Morning",
+            date: "Sept. 20",
+            time: "8:00 AM"
+        },
+        {
+            title: "Live with Kelly",
+            date: "Sept. 20",
+            time: "10:00 AM"
+        },
+        {
+            title: "The Marilyn Denis Show",
+            date: "Sept. 20",
+            time: "12:00 PM"
+        },
+        {
+            title: "The View",
+            date: "Sept. 20",
+            time: "4:00 PM"
+        },
+        {
+            title: "CTV News Toronto",
+            date: "Sept. 20",
+            time: "6:00 PM"
+        },
+        {
+            title: "Your Morning",
+            date: "Sept. 29",
+            time: "8:00 AM"
+        },
+        {
+            title: "Live with Kelly",
+            date: "Sept. 29",
+            time: "10:00 AM"
+        },
+        {
+            title: "The Marilyn Denis Show",
+            date: "Sept. 29",
+            time: "12:00 PM"
+        },
+        {
+            title: "The View",
+            date: "Sept. 29",
+            time: "4:00 PM"
+        },
+        {
+            title: "CTV News Toronto",
+            date: "Sept. 29",
+            time: "6:00 PM"
+        },
+        {
+            title: "Your Morning",
+            date: "Oct. 9",
+            time: "8:00 AM"
+        },
+        {
+            title: "Live with Kelly",
+            date: "Oct. 9",
+            time: "10:00 AM"
+        },
+        {
+            title: "The Marilyn Denis Show",
+            date: "Oct. 9",
+            time: "12:00 PM"
+        },
+        {
+            title: "The View",
+            date: "Oct. 9",
+            time: "4:00 PM"
+        },
+        {
+            title: "CTV News Toronto",
+            date: "Oct. 9",
+            time: "6:00 PM"
+        },
+    ];
 }
