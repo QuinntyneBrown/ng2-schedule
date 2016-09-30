@@ -1,11 +1,18 @@
+
+$day-picker-height:75px;
+$day-font-color:#000;
+$day-font-color-active:#fff;
+$day-background-color:#f2f2f2;
+$day-background-color-active:#797979;
+
 .day-picker {
     font-family:Arial;
+    color:$day-font-color;
 }
 
 .day-picker > div {
-    height:75px;
-    width:2250px;
-    transform: translateX(0);    
+    height:$day-picker-height;
+    width:2250px;    
 }
 
 .day-picker > div > div {
@@ -14,13 +21,19 @@
     float:left;
     width:75px;
     cursor:pointer;
-    height:75px;
-    background-color:#ccc;
+    height:$day-picker-height;
+    background-color:$day-background-color;
     span {
         text-align:center;
         display:block;
     }    
-    margin:0 5px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.day-picker > div > div.active {
+    background-color:$day-background-color-active;
+    color:$day-font-color-active;
 }
 
 .day-picker > div > div > span:first-child {
@@ -30,7 +43,7 @@
 
 .day-picker {
     width: 100%;
-    height: 150px;
+    height: $day-picker-height;
     overflow: hidden;
     display:block;
 }

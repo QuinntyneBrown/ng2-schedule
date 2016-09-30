@@ -1,6 +1,6 @@
 <div class="day-picker" (window:resize)="onResize($event)">
     <div>
-        <div *ngFor="let day of days;let i = index;" (click)="onClick(i)">
+        <div *ngFor="let day of days;let i = index;" (click)="onClick(i)" [ngClass]="{'active': i == _index }">
             <span class="day-picker-day-of-week">{{ day.dayOfWeek }}</span>
             <span class="day-picker-date">{{ day.date }}</span>
         </div>
